@@ -11,7 +11,7 @@
   <small>Posted at {{ post.date_added }}</small>
 
   <p>{{ post.intro }}</p>
-  <a href="{% url 'post_details' post.slug %}">Read more</a>
+  <a href="{% url 'post_detail' post.category.slug post.slug %}">Read more</a>
 
 </div>
 {% endfor %}
