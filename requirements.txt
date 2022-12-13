@@ -1,0 +1,3 @@
+gregsblog~=0.0.post1.dev1+g1d4dd4c
+setuptools~=63.2.0
+Django~=4.1.4
